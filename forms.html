@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <form class="js-form">
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Kalkulator walut</legend>
+        <p>
+          <label>
+            <span class="form__labelText">
+              Wpisz kwotę w PLN:*
+            </span>
+            <input class="js-amount form__field" name="amount" type="number" step="any" min="1" max="999999999"
+              placeholder="Podaj kwotę w złotówkach" autofocus required>
+          </label>
+        <p>* Pole wymagane</p>
+        </p>
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Wybierz walutę</legend>
+        <p>
+          <label>
+            <select class="form__field js-currency">
+              <option value="USD">Dolar amerykański</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">Funt brytyjski</option>
+              <option value="UAH">Hrywna ukraińska</option>
+              <option value="CHF">Frank szwajcarski</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <button class="form__button">Przelicz</button>
+        </p>
+        <p>
+          <label>
+            Wynik przeliczenia: <strong class="js-result"> N/a</strong>
+          </label>
+        </p>
+      </fieldset>
+      <p>
+        <button class="form__button" type="reset">Wyśczyść formularz</button>
+      </p>
+    </form>
+  </div>
+</body>
+
+</html>
