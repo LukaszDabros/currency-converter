@@ -11,4 +11,10 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 5px;
+  background-image: url("../images/money-bg.jpg");
+  background-size: cover;
 }
