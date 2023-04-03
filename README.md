@@ -6,7 +6,7 @@ How it works
 
 ![demo](video/currency-vid.gif)
 
-## First page
+## First Currency-Converter
 The technologies used in my project, thanks to participation in the YouCode programming course are: 
 - HTML
 - CSS
