@@ -17,4 +17,4 @@ The technologies used in my project, thanks to participation in the YouCode prog
 - GIT
 
 ## Demo
-https://lukaszdabros.github.io/currency-converter
+https://lukaszdabros.github.io/currency-converter/
